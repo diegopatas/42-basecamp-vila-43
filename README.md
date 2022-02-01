@@ -2,43 +2,30 @@
 
 ## O que é?
 
-- É uma iniciativa da vila 43 para ajudar quem está se sentindo muito perdido e quer entender o que está acontecendo nos exercícios do ponto de vista dos fundamentos.
-- É um tempo juntos onde a gente discute os fundamentos, explica as ferramentas e situa quem está se sentindo mega perdido e sente que está apenas executando comandos sem entender.
-- É um momento pra gente discutir e trocar, não é uma aula (até por que a gente não é professor haha).
-
+- É uma iniciativa da vila 43 para gente bater um papo e se ajudar.
+- A ideia é a gente dar vários passos pra trás e tentar explorar as ferramentas para entendê-las.
+- NÃO É UMA AULA, é um bate papo e um esforço pra se situar.
 
 
 ## Objetivos
 
 ### Gerais
 
-- Compartilhar o que a gente sabe de modo a tentar acelerar o aprendizado de quem está começando agora e do zero.
+- Tentar compartilhar o que a gente sabe com quem tá se sentindo muito perdido.
 
 ### Específicos
 
-- Discutir os temas que são dados como prerequisitos do basecamp.
-- Discutir e apresentar conceitos básicos, bem básicos, mas muito úteis para entender o que se está sendo pedido nos exercícios (pra saber o que está acontecendo e não só executar os comandos).
-- Acelerar o aprendizado de quem tá começando do zero e está se sentindo muito perdido.
-
+- Discutir conceitos bem básicos.
+- Explorar as ferramentas juntos.
 
 
 ## Temas
 
-### Ferramentas introdutórias
-- editor de texto vs IDE
-- interface de linha de comando vs interface gráfica
-- terminal e estrutura de sistema operacional
-- bash, shell, comandos, flags e etc
+- editor de texto (VScode)
+- Terminal e linha de comando
 - git, github e versionamento de código
 - outras dúvidas que aparecerem
-
-### Conceitos introdutórios
-- funcionamento do computador
-    - processador, memória, processamento de dados, e conteúdo por debaixo dos panos 
-- linguagens de programação
-    - linguagem de comando - shell
-    - linguagem de programação - C
-- outras dúvidas que aparecerem
+- processador, memória, processamento de dados, e conteúdo por debaixo dos panos 
 
 
 
