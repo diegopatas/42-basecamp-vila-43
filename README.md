@@ -1,4 +1,4 @@
-# Vila 43 - Tamojuntoemisturado
+# SOS que que tá acontecendo? - Iniciativa de ajuda da Vila 43
 
 ## O que é?
 
@@ -21,11 +21,12 @@
 
 ## Temas
 
+- qualquer dúvida, por mais simples e básica que seja
 - editor de texto (VScode)
 - Terminal e linha de comando
 - git, github e versionamento de código
-- outras dúvidas que aparecerem
 - processador, memória, processamento de dados, e conteúdo por debaixo dos panos 
+- outras dúvidas que aparecerem
 
 
 
