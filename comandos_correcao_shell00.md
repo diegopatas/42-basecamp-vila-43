@@ -1,94 +1,153 @@
 # Comandos de Correção lista Shell00
+---
 
 **Clonar o repositório do avaliado**
 
-```$ git clone <link> <nome>```
+```bash
+git clone <link> <nome>
+```
+
+---
+
 
 **Exerc 01**
 
 ```bash
-$ cat z
+cat z
 ```
 
 
 **Exerc 02**
 
-```$ tar -xf exo2.tar```
+```bash
+tar -xf exo2.tar
+```
 
-```$ ls -la```
+```bash
+ls -la
+```
 
 
 **Exerc 03**
 
-```$ mkdir pasta_teste```
+```bash
+mkdir pasta_teste
+```
 
-```$ touch teste```
+```bash
+touch teste
+```
 
-```$ bash midLS```
+```bash
+bash midLS
+```
 
 
 **Exerc 04**
 
-`$ bash git_commit.sh | cat -e`
+```bash
+bash git_commit.sh | cat -e
+```
 
 
 **Exerc 05**
 
-```$ touch arquivo```
+```bash
+touch arquivo
+```
 
-```$ mkdir exemplo```
+```bash
+mkdir exemplo
+```
 
-```$ echo arquivo >> .gitignore ```
+```bash
+echo arquivo >> .gitignore
+```
 
-```$ echo exemplo >> .gitignore ```
+```bash
+echo exemplo >> .gitignore
+```
 
-``` bash git_ignore.sh | cat -e ```
+```bash
+bash git_ignore.sh | cat -e 
+```
 
 
 **Exerc 06**
 
-```$ wget <link do arquivo resources.tar.gz```
+```bash
+wget <link do arquivo resources.tar.gz
+```
 
-```$ tar -xf <arquivo resources>```
+```bash
+tar -xf <arquivo resources>
+```
 
-```$ diff a b > sw2.diff```
+```bash
+diff a b > sw2.diff
+```
 
-```$ diff sw2.diff sw.diff```
+```bash
+diff sw2.diff sw.diff
+```
 
 
 **Exerc07**
 
-```$ touch \#teste#```
+```bash
+touch \#teste#
+```
 
-```$ touch teste~```
+```bash
+touch teste~
+```
 
-```$ bash clean```
+```bash
+bash clean
+```
 
 
 **Exerc08**
 
 opcao 1
 
-```$ touch teste```
+```bash
+touch teste
+```
 
-```$ file -m ft_magic teste```
+```bash
+file -m ft_magic teste
+```
 
 opcao 2 
 
-```$ touch teste```
+```bash
+touch teste
+```
 
-```$ file -C -m ft_magic```
+```bash
+file -C -m ft_magic
+```
 
-```$ file -m ft_magic.mgc teste```
+```bash
+file -m ft_magic.mgc teste
+```
 
+---
 saída esperada
 
-```teste: empty```
+```bash
+teste: empty
+```
 
 ou 
 
-```teste: ASCII text, with no line terminators```
+```bash
+teste: ASCII text, with no line terminators
+```
 
 ou
 
-```teste: 42 file```
+```bash
+teste: 42 file
+```
