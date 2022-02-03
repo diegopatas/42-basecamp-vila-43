@@ -76,11 +76,11 @@ bash git_ignore.sh | cat -e
 **Exerc 06**
 
 ```bash
-wget <link do arquivo resources.tar.gz
+wget <link_arquivo_resources>
 ```
 
 ```bash
-tar -xf <arquivo resources>
+tar -xvf <arquivo resources>
 ```
 
 ```bash
@@ -118,6 +118,8 @@ touch teste
 ```bash
 file -m ft_magic teste
 ```
+
+ou 
 
 opcao 2 
 
