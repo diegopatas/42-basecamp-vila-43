@@ -11,10 +11,13 @@ git clone <link> <nome>
 **Ex00**
 
 ```shell
-norminette -R CheckForbiddenSourceHeader
-gcc main.c ft_putchar.c
+norminette -R CheckForbiddenSourceHeader <arquivo_do_ex>
+gcc -Wall -Wextra -Werror <arquivo_do_ex>
+gcc main.c <arquivo_do_ex>
 ./a.out
 ```
+
+***obs: você deve ser capaz de criar o arquivo main.c***
 
 **Ex**
 
