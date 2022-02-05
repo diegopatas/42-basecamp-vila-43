@@ -12,8 +12,8 @@ git clone <link> <nome>
 
 ```shell
 norminette -R CheckForbiddenSourceHeader <arquivo_do_ex>
-gcc -Wall -Wextra -Werror <arquivo_do_ex>
-gcc main.c <arquivo_do_ex>
+touch main.c
+gcc -Wall -Wextra -Werror main.c <arquivo_do_ex>
 ./a.out
 ```
 

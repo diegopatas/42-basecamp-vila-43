@@ -1,4 +1,4 @@
-# SOS que que tá acontecendo? - Iniciativa de ajuda da Vila 43
+# SOS - Vila dos aprendizes (43)
 
 ## O que é?
 
