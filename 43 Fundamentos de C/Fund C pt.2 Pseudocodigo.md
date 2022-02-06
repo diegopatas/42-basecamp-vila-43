@@ -1,4 +1,4 @@
-# Fundamentos de C em Pseudocódigo parte1
+# Fundamentos de C parte 2: Pseudocódigo
 
 > ATENÇÃO
 > 
@@ -7,36 +7,18 @@
 > 3. Peça ajuda: se precisar de ajuda procure os Campers da vila43, faremos de tudo para te ajudar; não se sinta sozinho, tamo junto e misturado;
 > 4. Bons estudos!
 
-
-### Algoritmos e Programas
-
-***Ou como preparar um bolo com o seu PC***
-
 ---
-#### Algoritmo: receita de um bolo
 
-- Tema:
-	- Algoritmo: o que é;
-	- Etapas de processamento;
+## Definição de Pseudocódigo
 
-```
-Algoritmo: Receita de bolo
+>Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples.
 
-1. Início;
-2. Verificar se há ingredientes;
-3. Misturar ingredientes;
-4. Preparar forma;
-5. Colocar os ingredientes na forma;
-6. Assar a massa no forno a 180°c por 40 min;
-7. Retirar bolo;
-8. Comer uma fatia;
-9. Fim
-```
+**FONTE**[wikipedia](https://pt.wikipedia.org/wiki/Pseudoc%C3%B3digo)
 
 
-#### Programa: bolo_v1.0
+## Vamos criar um programa chamado `receita_principal`
 
-- FLUXO DE TRABALHO
+- Etapas de Trabalho
 	- criar um arquivo
 	- escrever o programa
 	- compilar o programa
@@ -46,6 +28,7 @@ Algoritmo: Receita de bolo
 
 - Diagrama de bloco: a estrutura do nosso programa
 
+
 ```mermaid
 	flowchart TD
 	Inicio -->
@@ -53,21 +36,19 @@ Algoritmo: Receita de bolo
 	Fim
 ```
 
-
 - criar um arquivo
 
 ```shell
-touch receita_bolo_v1.0
+criar receita_principal
 ```
 
 - escrever o programa
 
 ```stylus
-//programa receita_bolo_v1.0
+//programa receita_principal
 #link <biblio_entrada_saida.h>
 
 INICIO
-	// declar + inic
 	escreva "Olá mundo! Eu sou um bolo."
 FIM
 ```
@@ -75,13 +56,13 @@ FIM
 - compilar o programa
 
 ```shell
-gcc receita_bolo_v1.0
+compilar receita_principal
 ```
 
 - executar o programa
 
 ```shell
-./a.out
+executar receita_principal
 ```
 
 - conferir o resultado (testar)
@@ -91,9 +72,10 @@ Olá mundo! Eu sou um bolo.
 ```
 
 
-#### Programa: bolo_v2.0
+## Vamos aprimorar nosso programa `receita_principal`
 
-- Diagrama de bloco: a estrutura do nosso programa v2.0
+- Diagrama de bloco: a nova estrutura do nosso programa
+
 
 ```mermaid
 	flowchart TD
@@ -107,19 +89,17 @@ Olá mundo! Eu sou um bolo.
 	fim([Fim])
 ```
 
-- criar um arquivo
 
-```shell
-touch receita_bolo_v2.0
-```
+
+
+- atualizar o conteúdo do arquivo da seguinte forma
 
 ```stylus
-//programa receita_bolo_v2.0
+//programa receita_principal
 #link <utencilios_cozinha.h>
 #link <biblioteca_entrada_saida.h>
 
 INICIO
-	// declar + inic
 	ingred   ovo_qt;
 	ingred   leite_ml;
 	ingred   massa;
@@ -127,7 +107,7 @@ INICIO
 	ovo_qt = 2;
 	leite_ml = 1;
 
-	// proc
+	// processamento
 	escreva "Bem-vindo ao programa BOLO :D "
 	escreva "Ingredientes Ok!"
 	
@@ -142,13 +122,13 @@ FIM
 - compilar o programa
 
 ```shell
-gcc receita_bolo_v2.0
+compilar receita_principal
 ```
 
 - executar o programa
 
 ```shell
-./a.out
+executar receita_principal
 ```
 
 - conferir o resultado (testar)
@@ -160,3 +140,5 @@ Assando o bolo...
 Bolo pronto, retire-o do forno!
 Quantidade de fatias: 3
 ```
+
+

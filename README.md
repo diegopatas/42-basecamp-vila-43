@@ -1,8 +1,8 @@
-# SOS - Vila dos aprendizes (43)
+# SOS - Vila dos aprendizes
 
 ## O que é?
 
-- É uma iniciativa da vila 43 para gente bater um papo e se ajudar.
+- É uma iniciativa da VILA 43 para gente bater um papo e se ajudar.
 - A ideia é a gente dar vários passos pra trás e tentar explorar as ferramentas para entendê-las.
 - NÃO É UMA AULA, é um bate papo e um esforço pra se situar.
 
@@ -37,5 +37,3 @@
 - Formato: bate papo e tira dúvidas
 
 - Demonstração prática dos comandos
-
-  

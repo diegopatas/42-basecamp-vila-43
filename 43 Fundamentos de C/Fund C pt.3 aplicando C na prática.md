@@ -1,4 +1,4 @@
-# Fundamentos C: aplicando a linguagem na prática
+# Fundamentos C parte 3: aplicando a linguagem C na prática
 
 > ATENÇÃO
 > 
@@ -7,13 +7,8 @@
 > 3. Peça ajuda: se precisar de ajuda procure os Campers da vila43, faremos de tudo para te ajudar; não se sinta sozinho, tamo junto e misturado;
 > 4. Bons estudos!
 
-
-## Algoritmos e Programas em C
-
-***Ou como preparar um bolo com o seu PC***
-
 ---
-### Programa: receita_bolo.c
+## Programa `main.c`
 
 - FLUXO DE TRABALHO
 	- criar um arquivo
@@ -36,13 +31,13 @@
 - criar um arquivo
 
 ```shell
-touch receita_bolo.c
+touch main.c
 ```
 
 - escrever o programa
 
 ```C
-//programa receita_bolo.c
+//programa main.c
 #include <stdio.h>
 
 int main(void)
@@ -54,7 +49,7 @@ int main(void)
 - compilar o programa
 
 ```shell
-gcc receita_bolo.c
+gcc main.c
 ```
 
 - executar o programa
@@ -70,9 +65,10 @@ Olá mundo! Eu sou um bolo.
 ```
 
 
-### Programa: receita_bolo_1.c
+---
+## Vamos atualizar nosso programa `main.c`
 
-- Diagrama de bloco: a estrutura do nosso programa
+- Diagrama de bloco: a nova estrutura do nosso programa
 
 ```mermaid
 	flowchart TD
@@ -86,14 +82,10 @@ Olá mundo! Eu sou um bolo.
 	fim([Fim])
 ```
 
-- criar um arquivo
-
-```shell
-touch receita_bolo_1.c
-```
+- atualizar nosso arquivo
 
 ```c
-//programa receita_bolo_1.c
+//programa main.c
 #include <stdio.h>
 
 int main(void)
@@ -105,21 +97,21 @@ int main(void)
 	ovo_qt = 2;
 	leite_ml = 1;
 
-	printf("Bem-vindo ao programa BOLO :D ");
-	printf("Ingredientes Ok!");
+	printf("Bem-vindo ao programa BOLO :D \n");
+	printf("Ingredientes Ok!\n");
 	
 	massa = ovo_qt + leite_ml;
 
-	printf("Assando bolo...");
-	printf("Bolo pronto, retire-o do forno!");
-	printf("Quantidade de fatias: %d", massa);
+	printf("Assando bolo...\n");
+	printf("Bolo pronto, retire-o do forno!\n");
+	printf("Quantidade de fatias: %d\n", massa);
 }
 ```
 
 - compilar o programa
 
 ```shell
-gcc receita_bolo_1.c
+gcc main.c
 ```
 
 - executar o programa
