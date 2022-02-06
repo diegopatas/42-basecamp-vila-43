@@ -1,11 +1,12 @@
-# Fundamentos de C em Pseudocódigo
+# Fundamentos de C em Pseudocódigo parte1
 
 > ATENÇÃO
 > 
-> 1. Não seja trapaceiro(a): jamais utilize um código que você não sabe como funciona ou não sabe explicar;
+> 1. Não seja trapaceira(o): jamais utilize um código que você não sabe como funciona ou não sabe explicar;
 > 2. Faça as suas anotações: utilize esse doc quando não estiver com as suas anotações; a qualidade do seu raciocínio é insubstituível;
 > 3. Peça ajuda: se precisar de ajuda procure os Campers da vila43, faremos de tudo para te ajudar; não se sinta sozinho, tamo junto e misturado;
 > 4. Bons estudos!
+
 
 ### Algoritmos e Programas
 
@@ -42,16 +43,27 @@ Algoritmo: Receita de bolo
 	- executar o programa
 	- conferir o resultado (testar)
 
+
+- Diagrama de bloco: a estrutura do nosso programa
+
+```mermaid
+	flowchart TD
+	Inicio -->
+	om[Olá mundo! Eu sou um bolo.] -->
+	Fim
+```
+
+
 - criar um arquivo
 
 ```shell
-criar receita_bolo_v1.0
+touch receita_bolo_v1.0
 ```
 
 - escrever o programa
 
 ```stylus
-//programa Receita de bolo
+//programa receita_bolo_v1.0
 #link <biblio_entrada_saida.h>
 
 INICIO
@@ -63,13 +75,13 @@ FIM
 - compilar o programa
 
 ```shell
-compilar receita_bolo_v1.0
+gcc receita_bolo_v1.0
 ```
 
 - executar o programa
 
-```
-executar ./p.r
+```shell
+./a.out
 ```
 
 - conferir o resultado (testar)
@@ -81,14 +93,28 @@ Olá mundo! Eu sou um bolo.
 
 #### Programa: bolo_v2.0
 
+- Diagrama de bloco: a estrutura do nosso programa v2.0
+
+```mermaid
+	flowchart TD
+
+	bg([Início]) -->
+	bv[Bem-vindo ao programa bolo] -->
+	iok[Ingredientes Ok!] -->
+	ab[Assando bolo...] -->
+	bp[Bolo pronto, retire-o do forno] -->
+	qte[Quantidade de fatias: 3] -->
+	fim([Fim])
+```
+
 - criar um arquivo
 
 ```shell
-criar receita_bolo_v2.0
+touch receita_bolo_v2.0
 ```
 
 ```stylus
-//programa Receita de bolo
+//programa receita_bolo_v2.0
 #link <utencilios_cozinha.h>
 #link <biblioteca_entrada_saida.h>
 
@@ -102,7 +128,7 @@ INICIO
 	leite_ml = 1;
 
 	// proc
-	escreva "Bem-vindo ao programa BOLO ;)"
+	escreva "Bem-vindo ao programa BOLO :D "
 	escreva "Ingredientes Ok!"
 	
 	massa = ovo_qt + leite_ml;
@@ -116,26 +142,21 @@ FIM
 - compilar o programa
 
 ```shell
-compilar receita_bolo_v2.0
+gcc receita_bolo_v2.0
 ```
 
 - executar o programa
 
-```
-executar ./p.r
+```shell
+./a.out
 ```
 
 - conferir o resultado (testar)
 
 ```shell
-Bem-vindo ao programa BOLO ;)
+Bem-vindo ao programa BOLO :D
 Ingredientes OK!
 Assando o bolo...
 Bolo pronto, retire-o do forno!
 Quantidade de fatias: 3
 ```
-
----
----
-### Para mandar bem nas listas e provas da 42 de C
-
