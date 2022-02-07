@@ -13,7 +13,7 @@
 
 >Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples.
 
-**FONTE**[wikipedia](https://pt.wikipedia.org/wiki/Pseudoc%C3%B3digo)
+**FONTE** [wikipedia](https://pt.wikipedia.org/wiki/Pseudoc%C3%B3digo)
 
 
 ## Vamos criar um programa chamado `receita_principal`

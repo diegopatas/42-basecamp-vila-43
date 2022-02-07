@@ -105,3 +105,14 @@ Quantidade de fatias: 3
 ### Repasse o conhecimento!
 > Sempre que puder, repasse seus conhecimentos
 > Bons estudos!
+
+
+
+
+
+pede um
+ft_putchar.c
+
+que imprime na tela o char A ou Z
+
+main.c

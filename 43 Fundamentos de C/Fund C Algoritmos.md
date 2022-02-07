@@ -8,16 +8,19 @@
 > 5. Bons estudos!
 
 
-### Algoritmos e Programas
+## Algoritmos e Programas
+
+***Algoritmo: definição***
+
+> "[...] um **algoritmo** é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema."
+
+**FONTE:***  [wikipedia](https://pt.wikipedia.org/wiki/Algoritmo#cite_note-1)
+
 ---
 #### Receitas de bolo são algoritmos
 
-- Tema:
-	- Algoritmo: o que é?
-	- Etapas de processamento
-
 ```
-Algoritmo: Receita de bolo
+Exemplo de algoritmo: Receita de bolo
 
 1. Início;
 2. Verificar se há ingredientes;
@@ -30,6 +33,15 @@ Algoritmo: Receita de bolo
 9. Fim
 ```
 
-> "[...] um **algoritmo** é uma sequência finita de [ações executáveis](https://pt.wikipedia.org/wiki/Instru%C3%A7%C3%A3o_(inform%C3%A1tica) "Instrução (informática)") que visam obter uma solução para um determinado tipo de problema."
 
-**FONTE:*** [wikipedia](https://pt.wikipedia.org/wiki/Algoritmo#cite_note-1)
+---
+ID: 
+Tag: [[]]
+Type: #type/ 
+Status: #status/potting  
+PRVS: 
+NXT: 
+BRNCH: 
+
+%%napkin - noeud - moc - source - hub - project%%
+%%potting - sown - harvest%%

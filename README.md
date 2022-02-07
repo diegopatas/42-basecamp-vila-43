@@ -1,5 +1,13 @@
 # SOS - Vila dos aprendizes
 
+## Quem somos?
+	- mclara-d | Maria
+	- gde-sous | Gabriel
+	- jgiacomo | Jeferson
+	- mbatista | Matheus
+	- fviana | Felipe
+	- ddiniz | Diego
+
 ## O que é?
 
 - É uma iniciativa da VILA 43 para gente bater um papo e se ajudar.
