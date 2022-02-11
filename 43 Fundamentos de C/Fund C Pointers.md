@@ -1,7 +1,7 @@
 ---
 Aliases: 
 ---
-# C pointers
+# Fundamentos de C: C pointers
 
 - **Declaração simples**
 
@@ -173,6 +173,49 @@ int main(void)
 
 ```
 
+
+- **Escopo global: Ponteiro vs Return (x)** 
+
+```c
+int main(void)
+{
+	void ft_ft(int *nbr)
+	{
+		*nbr = 42;
+	}
+
+	int main(void)
+	{
+		int x;
+		int *p;
+		
+		x = 18;
+		p = &x;
+		ft_ft(p);
+	}
+}
+
+```
+
+
+```c
+void ft_ft(int yb)
+
+{
+	yb = 42;
+	return (yb)
+}
+
+int main(void)
+{
+	int x;
+	int var_x;
+	
+	x = 252;
+	var_x = ft_ft(x);
+}
+
+```
 
 ---
 ID: 
