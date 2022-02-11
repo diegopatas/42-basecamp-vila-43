@@ -3,10 +3,9 @@ Aliases:
 ---
 # Defesa Rush04
 
----
 ## Como funciona? 
 
-- Executamos o arq binário pelo terminal fazendo ./rush0X.out col lin;
+- Executamos pelo terminal fazendo `opcao #col #lin`; ex `./rush04.out 252 9`;
 - Isso por que o bônus propunha a aceitação de argumentos pela linha de comando;
 - Ele imprime o desenho de acordo com o desafio.
 
@@ -60,3 +59,4 @@ BRNCH:
 
 %%napkin - noeud - moc - source - hub - project%%
 %%potting - sown - harvest%%
+
